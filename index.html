@@ -56,7 +56,7 @@
 		
 		map = L.map('map').setView([52.05, -0.75], 12);
 
-		baseLayer = L.tileLayer('mapnik_tiles/{z}/{x}/{y}.png', {
+		baseLayer = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 			maxZoom: 15
 			
 		});
